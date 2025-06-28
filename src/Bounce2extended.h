@@ -27,8 +27,8 @@
   * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
-#ifndef Bounce2_h
-#define Bounce2_h
+#ifndef Bounce2extended_h
+#define Bounce2extended_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
@@ -101,6 +101,7 @@ public:
 */
 
 	bool update();
+  bool updateint();
 
     /**
      @brief Returns the pin's state (HIGH or LOW).
